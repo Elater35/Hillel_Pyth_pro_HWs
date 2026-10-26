@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            Книжковий сайт Бум-Бум
+        {% endblock %}
+    </title>
+</head>
+<body>
+
+    <nav>
+        <a href="/">Головна</a> | <a href="/books">Каталог</a>
+    </nav>
+    <hr>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
